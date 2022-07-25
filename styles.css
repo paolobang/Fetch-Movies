@@ -1,0 +1,99 @@
+#root {
+    background: black;
+  }
+
+body {
+  background: black;
+}
+h1 {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  padding-top: 3rem;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+h2 {
+  font-size: 1rem;
+  line-height: 1;
+  color: #8b8b8b;
+  margin-top: 1rem;
+  
+}
+
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+  max-width: 1300px;
+  }
+}
+
+.card-title{
+  width: 18rem;
+  height: 3rem;
+}
+.card-deck {
+  flex-flow: column;
+  margin: 0 0 2rem 0 ;
+
+}
+.card-pic{
+  transition: all 0.3s ease 0s;
+}
+.card-pic:hover{
+  /* opacity: 1; */
+  /* background-color:white; */
+  z-index: 1;
+
+}
+.card-body{
+  min-height: 25rem;
+  padding: 0;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  transition: all 0.3s ease 0s;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+.card-body:hover{
+  opacity: 1;
+}
+.shadow-sm {
+  border-radius: 5px;
+  /* box-shadow: 0 .125rem .25rem rgba(255, 255, 255, 0.22) !important */
+}
+.card-columns .card {
+  width: 16rem;
+}
+
+.frm-main{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem 0 2rem 0;
+}
+.frm-input {
+  width: 30%;
+}
+.frm-pag{
+  display: flex;
+  justify-content: center;
+}
+.footer-author {
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;  
+    padding: 3rem 0 3rem 0;
+
+}
+.footer-author a {
+
+    color: #fff;
+}
